@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -11,7 +14,8 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <button className="dropdown-toggle" onClick={toggleDropdown}>
-        Menu
+        <span className="menu-text">MENU </span>
+        <FontAwesomeIcon icon={faBars} />
       </button>
       <ul className={`header2 ${isDropdownOpen ? "open" : ""}`}>
         <li>
