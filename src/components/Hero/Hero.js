@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="hero">
       <img src={heroImage} alt="Hero" className="hero-image" />
       <div className="content">
-        <h1>Welcome to Mode Constructions Services Ltd</h1>
+        <h1>Welcome to Mode Construction Services Ltd</h1>
         <p>Your trusted partner in construction projects</p>
       </div>
     </div>
