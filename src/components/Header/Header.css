@@ -19,6 +19,8 @@
 
 .logo {
   margin-top: 20px; /* Adjust the margin-top value as per your requirement */
-  max-width: 100%; /* Ensure the logo fits within the container */
-  height: auto; /* Allow the height to adjust based on the width */
+  max-width: 80%; /* Adjust the width of the logo container */
+  max-height: 80%; /* Adjust the height of the logo container */
+  width: 100px;
+  height: 100px;
 }
