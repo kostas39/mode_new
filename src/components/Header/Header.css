@@ -1,0 +1,24 @@
+.header {
+  background-color: #61a5c2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Default height for larger screens */
+
+  /* Media query for tablet screens */
+  @media (max-width: 768px) {
+    height: 150px; /* Adjust the height for tablet screens */
+  }
+
+  /* Media query for mobile screens */
+  @media (max-width: 480px) {
+    height: auto; /* Allow the height to adjust based on content */
+  }
+}
+
+.logo {
+  margin-top: 20px; /* Adjust the margin-top value as per your requirement */
+  max-width: 100%; /* Ensure the logo fits within the container */
+  height: auto; /* Allow the height to adjust based on the width */
+}
