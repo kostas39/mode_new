@@ -2,28 +2,38 @@
   position: relative;
 }
 
-.hero-image {
-  width: 100%;
-  height: auto;
+.carousel .slide {
+  position: relative;
 }
 
-.content {
+.carousel .slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* Add the following styles */
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+.slide .content {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   padding: 20px;
-  text-align: center;
-  color: #fff;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
-.content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+.slide .content h1 {
+  margin: 0;
+  font-size: 24px;
 }
 
-.content p {
-  font-size: 1.5rem;
+.slide .content p {
+  margin: 10px 0 0;
+  font-size: 16px;
 }
 
 /* Mobile Styles */

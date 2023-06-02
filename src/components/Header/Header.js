@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import logo from "../../assets/mode_logo.png"; // Assuming you have a logo image file named "logo.png" in the same directory
+// import logo from "../../assets/mode_logo.png"; // Assuming you have a logo image file named "logo.png" in the same directory
 
 const Header = () => {
   return (
@@ -15,8 +15,8 @@ const Header = () => {
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </div>
-      <img src={logo} alt="Logo" className="logo" />
-      <h1>Mode Construction Services Ltd</h1>
+      {/* <img src={logo} alt="Logo" className="logo" />
+      <h1>Mode Construction Services Ltd</h1> */}
     </div>
   );
 };
