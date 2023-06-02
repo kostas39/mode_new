@@ -6,6 +6,7 @@
 .dropdown-toggle {
   display: none; /* Hide the button by default for larger screens */
 }
+
 .header2 {
   text-decoration: none;
   display: flex;
@@ -15,13 +16,7 @@
   font-size: 30px;
   list-style-type: none;
 }
-/* .header2 {
 
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-} */
 
 .header2 li {
   margin: 0 10px;
@@ -51,11 +46,8 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .header2 li {
+    margin: 10px 0; /* Adjust the margin for smaller screens */
+  }
 }
-
-/*
-
-ul {
-  list-style-type: none;
-  justify-content: space-between;
-} */
