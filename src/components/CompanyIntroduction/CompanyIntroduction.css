@@ -1,0 +1,68 @@
+.company-introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  position: relative;
+}
+
+.heading-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+
+.left-half {
+  flex: 0.4; /* Adjust the flex value to make the left half smaller */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  background-color: #f1f1f1; /* Change the background color */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+.left-half .heading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.left-half-content {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.left-half-content p {
+  margin-bottom: 20px;
+}
+
+.about-us-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.right-half {
+  flex: 0.6; /* Adjust the flex value to make the right half larger */
+  padding-left: 60px; /* Adjust the padding on the right side */
+  margin-top: 40px;
+}
+
+.right-half img {
+  max-width: 100%;
+  height: auto;
+}
