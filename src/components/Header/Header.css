@@ -1,44 +1,45 @@
 .header {
-  background-color: #284b63;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px; /* Default height for larger screens */
-
-  /* Media query for tablet screens */
-  @media (max-width: 768px) {
-    height: 150px; /* Adjust the height for tablet screens */
-  }
-
-  /* Media query for mobile screens */
-  @media (max-width: 480px) {
-    height: auto; /* Allow the height to adjust based on content */
-  }
+  justify-content: space-between;
+  align-items: flex-start; /* Adjusted to align items slightly lower */
+  height: 200px;
+  padding: 0 20px;
+  background-color: white;
 }
 
-.header h1{
-  color: black;
-  font-size: 1rem;
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;/* Adjusted margin-top to move the logo lower */
 }
 
 .logo {
-  margin-top: 20px; /* Adjust the margin-top value as per your requirement */
-  max-width: 100%; /* Adjust the width of the logo container */
-  height: auto; /* Adjust the height of the logo container */
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: auto;
 }
-.social-icons {
-  position: absolute;
-  top: 10px; /* Adjust the top value to position the icons */
-  right: 100px; /* Adjust the left value to position the icons */
+
+.header_list {
+  flex-grow: 1;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.social-icons a {
-  margin-right: 10px; /* Adjust the margin between the icons */
+.header_list ul {
+  list-style: none;
+  display: flex;
+  font-family: 'sofia-pro-light', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.header_list li {
+  margin-right: 60px;
+  padding: 0 15px;
+}
+
+.header_list li a {
+  text-decoration: none;
   color: black;
-  font-size: 1.5rem;
 }

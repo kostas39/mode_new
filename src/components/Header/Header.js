@@ -1,22 +1,35 @@
 import React from "react";
 import "./Header.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-// import logo from "../../assets/mode_logo.png"; // Assuming you have a logo image file named "logo.png" in the same directory
+import logo from "../../assets/mode_logo.jpg";
 
 const Header = () => {
   return (
     <div className="header">
-      <div className="social-icons">
-        <a href="https://www.instagram.com/modeconstruction/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faInstagram} />
-        </a>
-        <a href="https://www.linkedin.com/in/mode-construction-services-ltd-a86753254/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedin} />
-        </a>
+      <div className="logo-container">
+        <img src={logo} alt="Logo" className="logo" />
       </div>
-      {/* <img src={logo} alt="Logo" className="logo" />
-      <h1>Mode Construction Services Ltd</h1> */}
+      <div className="header_list">
+        <ul className="header_list">
+          <li>
+            <a href="/">HOME</a>
+          </li>
+          <li>
+            <a href="/services">SERVICES</a>
+          </li>
+          <li>
+            <a href="/projects">PROJECTS</a>
+          </li>
+          <li>
+            <a href="/construction">CONSTRUCTION</a>
+          </li>
+          <li>
+            <a href="/about">ABOUT US</a>
+          </li>
+          <li>
+            <a href="/contact">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
