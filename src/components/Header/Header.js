@@ -1,12 +1,15 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 import logo from "../../assets/mode_logo.jpg";
 
 const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
+      <Link to="/">
         <img src={logo} alt="Logo" className="logo" />
+      </Link>
       </div>
       <div className="header_list">
         <ul className="header_list">
@@ -23,7 +26,7 @@ const Header = () => {
             <a href="/construction">CONSTRUCTION</a>
           </li>
           <li>
-            <a href="/about">ABOUT US</a>
+            <Link to="/about-us">ABOUT US</Link>
           </li>
           <li>
             <a href="/contact">CONTACT US</a>
