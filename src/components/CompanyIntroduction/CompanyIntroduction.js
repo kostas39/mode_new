@@ -1,6 +1,8 @@
+// CompanyIntroduction.js
 import React from "react";
-import "./CompanyIntroduction.css"
-import companyPhoto from "..//..//assets/companyPhoto.jpeg"
+import "./CompanyIntroduction.css";
+import companyPhoto from "..//..//assets/companyPhoto.jpeg";
+import { Link } from "react-router-dom";
 
 const CompanyIntroduction = () => {
   return (
@@ -20,7 +22,7 @@ const CompanyIntroduction = () => {
             more efficient or safe. We make sure that our Clients, Staff, and Contractors are all protected
             throughout this process.
           </p>
-          <button className="about-us-button">About Us</button>
+          <Link to="/about-us" className="about-us-button">About Us</Link>
         </div>
       </div>
       <div className="right-half">
@@ -29,6 +31,5 @@ const CompanyIntroduction = () => {
     </div>
   );
 };
-
 
 export default CompanyIntroduction;
