@@ -6,6 +6,8 @@ import Hero from './components/Hero/Hero';
 import Footer from './components/Footer/Footer';
 import CompanyIntroduction from './components/CompanyIntroduction/CompanyIntroduction';
 import AboutUsPage from './components/AboutUsPage/AboutUsPage';
+import CompanyInfo from './components/CompanyInfo/CompanyInfo';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about-us" element={<AboutUsPage />} />
           </Routes>
+            <CompanyInfo />
             <Footer />
         </div>
       </div>
