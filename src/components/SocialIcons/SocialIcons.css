@@ -1,0 +1,18 @@
+.icon-links {
+  background-color: #3b4547;
+  position: relative;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  z-index: 999;
+}
+
+.icon-links a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
