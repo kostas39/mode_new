@@ -2,20 +2,29 @@
   position: relative;
   bottom: 0;
   left: 0;
+  top: 0;
   width: 100%;
-  background-color: #edede9;
+  background-color: #3b4547;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 10px;
+  color: white;
+  min-height: 500px;
+  margin-bottom: 0px;
+}
+
+.company-info-logo {
+  margin-left: 40px;
 }
 
 .founder-description {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .contact-details {
-  margin-right: 20px;
+  margin-right: 40px;
+  margin-top: 20px;
 }
 
 .icon-links {
@@ -30,5 +39,9 @@
 }
 
 .icon-links i {
-  font-size: 20px;
+  font-size: 30px;
+}
+
+.logo2 {
+  width: 150px;
 }

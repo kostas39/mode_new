@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import CompanyIntroduction from './components/CompanyIntroduction/CompanyIntroduction';
 import AboutUsPage from './components/AboutUsPage/AboutUsPage';
 import CompanyInfo from './components/CompanyInfo/CompanyInfo';
+import SocialIcons from './components/SocialIcons/SocialIcons';
 
 
 function App() {
@@ -18,8 +19,11 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about-us" element={<AboutUsPage />} />
           </Routes>
+          <div className="bottom-components">
             <CompanyInfo />
-             <Footer />
+            <SocialIcons />
+            <Footer />
+          </div>
       </div>
     </BrowserRouter>
   );
