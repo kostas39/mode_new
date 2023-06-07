@@ -14,14 +14,12 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
-        <div className="Content">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about-us" element={<AboutUsPage />} />
           </Routes>
             <CompanyInfo />
-            <Footer />
-        </div>
+             <Footer />
       </div>
     </BrowserRouter>
   );
