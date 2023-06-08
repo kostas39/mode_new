@@ -7,11 +7,11 @@
   background-color: #3b4547;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-start; /* Adjusted align-items to flex-start */
   padding: 10px;
   color: white;
   min-height: 500px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .company-info-logo {
@@ -25,6 +25,11 @@
 .contact-details {
   margin-right: 40px;
   margin-top: 20px;
+}
+
+.contact-details a {
+  color: white; /* Set link color to white */
+  text-decoration: none; /* Remove underline */
 }
 
 .icon-links {
