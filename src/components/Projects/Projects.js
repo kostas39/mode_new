@@ -22,6 +22,8 @@ const Projects = () => {
     <div className="projects">
       <h2>Projects</h2>
       <div className={`project-list ${windowWidth < 768 ? "mobile" : "desktop"}`}>
+      <iframe src="https://my.matterport.com/show/?m=Rmnr8V6DseJ" width="100%" height="600px" frameborder="0" allowfullscreen allow="xr-spatial-tracking"></iframe>
+
         {/* Render project items */}
         {/* ... */}
       </div>
