@@ -1,0 +1,47 @@
+.projects {
+  padding: 20px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Mobile layout */
+.project-list.mobile {
+  flex-direction: column;
+}
+
+/* Desktop layout */
+.project-list.desktop {
+  flex-direction: row;
+}
+
+.project-item {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Mobile layout */
+.project-item.mobile {
+  width: 100%;
+}
+
+/* Desktop layout */
+.project-item.desktop {
+  width: calc(50% - 10px); /* Adjust the width based on the number of columns you want */
+}
+
+/* Other styles for project items */
+.project-item .image {
+  /* ... */
+}
+
+.project-item .title {
+  /* ... */
+}
+
+.project-item .description {
+  /* ... */
+}
