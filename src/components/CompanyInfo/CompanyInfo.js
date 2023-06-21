@@ -12,8 +12,7 @@ const CompanyInfo = () => {
         <div className="founder-description">
           <h3>Founder's Description</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            commodo tristique massa, ut vestibulum odio accumsan eget.
+           I will replace this one
           </p>
         </div>
       </div>
