@@ -9,6 +9,7 @@ import AboutUsPage from './components/AboutUsPage/AboutUsPage';
 import CompanyInfo from './components/CompanyInfo/CompanyInfo';
 import SocialIcons from './components/SocialIcons/SocialIcons';
 import Projects from './components/Projects/Projects';
+import LatestProjects from './components/LatestProjects/LatestProjects';
 
 
 function App() {
@@ -37,6 +38,7 @@ function HomePage() {
     <>
       <Hero />
       <CompanyIntroduction />
+      <LatestProjects />
     </>
   );
 }
