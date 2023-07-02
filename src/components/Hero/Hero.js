@@ -12,7 +12,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 4000); // Change the interval time (in milliseconds) as needed
+    }, 3000); // Change the interval time (in milliseconds) as needed
 
     return () => clearInterval(interval);
   }, [images]);
