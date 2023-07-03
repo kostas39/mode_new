@@ -1,5 +1,5 @@
 import React from "react";
-import "./CompanyInfo.css";
+import "./CompanyInfo.scss";
 import logo2 from "../../assets/CompanyInfo_logo.jpg";
 
 const CompanyInfo = () => {

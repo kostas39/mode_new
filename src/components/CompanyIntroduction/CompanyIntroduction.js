@@ -1,6 +1,6 @@
 // CompanyIntroduction.js
 import React from "react";
-import "./CompanyIntroduction.css";
+import "./CompanyIntroduction.scss";
 import companyPhoto from "..//..//assets/companyPhoto.jpeg";
 import { Link } from "react-router-dom";
 

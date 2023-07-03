@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';import "./Hero.css";
+import React, { useState, useEffect } from 'react';import "./Hero.scss";
 import heroImage1 from "../../assets/heroimage1.jpeg"; // Assuming you have a hero image file named "hero_image.jpg" in the assets folder
 import heroImage2 from "../../assets/heroimage2.jpeg";
 import heroImage3 from "../../assets/heroimage3.jpeg";

@@ -1,5 +1,5 @@
 import React from "react";
-import './AboutUsPage.css'
+import './AboutUsPage.scss'
 
 const AboutUsPage = () => {
   const isAboutUsRoute = window.location.pathname === "/about-us";

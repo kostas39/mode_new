@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Projects.css";
+import "./Projects.scss";
 
 const Projects = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
