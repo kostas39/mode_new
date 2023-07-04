@@ -7,7 +7,7 @@
   background-color: #3b4547;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* Adjusted align-items to flex-start */
+  align-items: flex-start;
   padding: 10px;
   color: white;
   min-height: 500px;
@@ -29,8 +29,8 @@
 }
 
 .contact-details a {
-  color: white; /* Set link color to white */
-  text-decoration: none; /* Remove underline */
+  color: white;
+  text-decoration: none;
 }
 
 .icon-links {
