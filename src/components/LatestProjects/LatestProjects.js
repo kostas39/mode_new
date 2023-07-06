@@ -1,12 +1,17 @@
 import React from 'react';
 import './LatestProjects.scss';
-import Image1 from '../../assets/companyPhoto.jpeg'
-import Image2 from '../../assets/heroimage1.jpeg'
+import Image1 from '../../assets/companyPhoto.jpeg';
+import Image2 from '../../assets/heroimage1.jpeg';
+import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 
 const LatestProjects = () => {
+  const strArray = ['Our', ' Latest', ' Projects'];
+
   return (
     <div className="latest-projects">
-      <h2>Our Latest Projects</h2>
+      <h2>
+        <AnimatedLetters letterClass="animated-letter" strArray={strArray} index={0} />
+      </h2>
       <div className="project-cards">
         <div className="project-card">
           <img src={Image1} alt="Project 1" />
