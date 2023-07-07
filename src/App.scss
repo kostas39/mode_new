@@ -1,3 +1,5 @@
+$primary-color: black;
+
 .App {
   display: flex;
   flex-direction: column;
@@ -8,6 +10,21 @@
   .bottom-components {
     justify-content: center;
     display: block;
+  }
+
+  .loader-active {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    animation: fadeOut 0.8s 0.8s;
+    animation-fill-mode: forwards;
+    color: var(--primary-color);
   }
 
   .App-logo {
