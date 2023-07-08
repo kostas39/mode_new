@@ -9,6 +9,8 @@ import './LatestProjects.scss';
 
 const LatestProjects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  const nameArray = 'Our Latest Projects'.split('');
+
 
   useEffect(() => {
     setTimeout(() => {
@@ -19,11 +21,11 @@ const LatestProjects = () => {
   return (
     <div className="latest-projects">
       <h2>
-      <AnimatedLetters
-            letterClass={letterClass}
-            strArray={['O', 'u', 'r', ' ', 'L', 'a', 't', 'e', 's', 't', ' ', 'P', 'r', 'o', 'j', 'e', 'c', 't', 's']}
-            index={30}
-          />
+      <AnimatedLetters letterClass={letterClass}
+        strArray={nameArray}
+        index={15}
+        />
+
       </h2>
       <div className="project-cards">
         <div className="project-card">
