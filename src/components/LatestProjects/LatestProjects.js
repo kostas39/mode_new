@@ -31,12 +31,12 @@ const LatestProjects = () => {
         <div className="project-card">
           <img src={Image1} alt="Project 1" />
           <h4>Project 1</h4>
-          <p>Description of Project 1</p>
+          <p>Description of second Project </p>
         </div>
         <div className="project-card">
           <img src={Image2} alt="Project 2" />
           <h4>Project 2</h4>
-          <p>Description of Project 2</p>
+          <p>Description of first Project </p>
         </div>
       </div>
     </div>
