@@ -12,7 +12,7 @@ const CompanyInfo = () => {
         <div className="founder-description">
           <h3>Founder's Description</h3>
           <p>
-           I will replace this one
+           I am a highly experienced and skilled professional with over 20 years of experience in the construction industry. I have worked on a wide range of projects, from small residential properties to large commercial buildings. I am passionate about delivering high-quality work and providing excellent customer service. I am committed to ensuring that every project is completed on time and within budget. I take great pride in my work and strive to exceed my clients' expectations. I look forward to working with you on your next project.
           </p>
         </div>
       </div>
